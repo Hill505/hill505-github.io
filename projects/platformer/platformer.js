@@ -55,6 +55,7 @@ $(function () {
     // example usage: createCollectable(type, x, y, gravity, bounce)
     createCollectable("steve",250,460,20,0.5);
     createCollectable("grace",450,660,20,0.5);
+    createCollectable("diamond",540,630,40,0.5)
 
 
     // TODO 3
@@ -62,7 +63,9 @@ $(function () {
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
-
+    createCannon('top' ,500,1000)
+    createCannon('top', 800,1000)
+    createCannon('top', 985,1000)
 
 
 
