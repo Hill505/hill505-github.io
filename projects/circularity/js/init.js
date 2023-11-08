@@ -5,7 +5,8 @@ var init = function (window) {
         physikz = window.opspark.racket.physikz,
         
         app = window.opspark.makeApp(),
-        canvas = app.canvas, 
+        canvas = 
+        app.canvas, 
         view = app.view,
         fps = draw.fps('#000');
         
@@ -20,8 +21,9 @@ var init = function (window) {
         ////////////////////////////////////////////////////////////
         
         // TODO 1 : Declare and initialize our variables
-
-
+        var circle;
+        var circles = [0];
+       
         // TODO 2 : Create a function that draws a circle 
         
 
