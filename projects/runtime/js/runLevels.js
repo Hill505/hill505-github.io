@@ -67,7 +67,7 @@ var runLevels = function (window) {
         game.changeIntegrity(100);
         
         enemy.shrink();
-        shrink(enemy)
+    
       };
       enemy.onProjectileCollision = function () {
         game.changeIntegrity(100);
@@ -92,7 +92,6 @@ var runLevels = function (window) {
           game.changeIntegrity(100);
           
           marker.shrink();
-          shrink(marker)
         };
         marker.onProjectileCollision = startLevel();
       }
